@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JS Object 1</h2>
+
+<script>
+const user = {
+  name: "John",
+  surname: "Mike"
+};
+
+user.name="Peter";
+delete user.name;
+
+document.write("User name: ", user.name);
+</script>
+
+<br><br><h2>JS Object 2</h2>
+
+<script>
+var fruit = {apple: 20,pear: 20,peach: 10};
+var sum = 0;
+
+for (var key in fruit) {
+  sum +=fruit[key];
+}
+
+document.write("Sum of fruits: ", sum);
+</script>
+
+</body>
+</html>

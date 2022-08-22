@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Exam</title>
+            <style>
+                body{
+                    border: 2px solid green;
+                    height: 500px;
+                }
+                main{
+                    display:  flex;
+                    justify-content: center;
+                }
+                .flex-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 500px;
+                    border: dashed purple 2px;
+                }
+
+                .flex-container > div {
+                    background-color: pink;
+                    padding: 30px;
+                    margin: 20px;
+                    border: solid red 1px;
+                    font-size: 30px;
+                    text-align: center;
+                    color: blue;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>The flex Property</h1>
+            <p>Implement the CSS file and use the flex display the four seats in two rows as the given UI</p>
+            <main>
+                <div class="flex-container">
+                    <div>Seat 1</div>
+                    <div>Seat 2</div>
+                    <div>Seat 3</div>
+                    <div>Seat 4</div>  
+                </div>
+            </main>
+        </body>
+</html>
