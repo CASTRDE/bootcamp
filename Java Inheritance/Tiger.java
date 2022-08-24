@@ -1,0 +1,2 @@
+class Tiger extends Felidae {
+}
